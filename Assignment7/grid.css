@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 4%;
+}
+
+figure{
+    flex-basis: 22%;
+    margin-top: 10px;
+}
+figcaption *{
+    margin: 1%;
+    text-align: center;
+}
+figure >  div{
+   
+    min-height: 200px;
+}
+figcaption{
+    background-color:black;
+    color:white;
+    padding: 1px;
+}
+.row1{
+    flex-basis: 48%;
+}
+.row4{
+    flex-basis: 48%;
+}
+.row5{
+    flex-basis: 74%;
+}
+.row6{
+    flex-basis: 100%;
+}
+.row7{
+    flex-basis:48% ;
+}
+.row2{
+    flex-direction: row-reverse;
+}
+.row3{
+    flex-direction: row-reverse;
+}
+.one{
+    background-color:rgb(217 15 15);
+
+}
+.two{
+    background-color:orangered;
+}
+.three{
+    background-color:rgb(251 170 20);
+}
+
+.four{
+    background-color: rgb(8 81 143);
+}
